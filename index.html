@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: #fff;
+        }
+
+        body {
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg px-2 position-sticky top-0" style="z-index: 999; background: linear-gradient(to right, #0f0c29, #302b63, #24243e);" data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0" data-bs-method="scroll">
+        <div class="container-fluid d-flex flex-row justify-content-between">
+            <a class="navbar-brand d-flex align-items-center m-4" href="#home">
+                <img class="m-2 rounded-circle" src="./assets/img/signatureImageAscii.jpeg" alt="logo.png" width="100" height="100" style="filter: brightness(3);">
+                <h1 class="fs-1 fw-semibold m-2" style="color: #fff;">Watchmen</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end m-4" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-normal" style="color: #fff;" aria-current="page" href="#home" data-bs-target="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-normal" style="color: #fff;" href="#about" data-bs-target="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-normal" style="color: #fff;" href="#services" data-bs-target="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-normal" style="color: #fff;" href="#contact" aria-disabled="true" data-bs-target="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container" id="home">
+        <div id="carouselHero" class="carousel slide my-4">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/cs1.jpeg" class="d-block" width="100%" alt="...">
+                    <div class="carousel-caption">
+                        <p class="fs-4 fw-bold">Protect your business from cyber threats with our advanced security solutions, so you can focus on what matters most.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/cs2.jpeg" class="d-block" width="100%" alt="...">
+                    <div class="carousel-caption">
+                        <p class="fs-4 fw-bold">Safeguard your digital assets and ensure uninterrupted business operations with our cutting-edge cyber security services, designed to keep you secure and protected.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="container" id="about">
+        <div class="d-flex flex-column text-center my-4">
+            <div class="mb-4">
+                <p class="fs-1 fw-bold">Watchmen:</p> Your trusted partner in cybersecurity.</p>
+                <p class="fs-5">At Watchmen, we believe that every business deserves top-notch cybersecurity protection. Our team of experts works tirelessly to stay ahead of the latest threats and provide customized solutions tailored to your unique needs. With us, you can rest assured knowing that your digital assets are secure.</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="fw-bold my-3">What our clients say about us:</h3>
+                <div class="testimonial d-flex justify-content-evenly align-items-start mb-3">
+                    <div class="ps-4">
+                        <p class="mb-0"><strong>"Watchmen's cybersecurity services have been instrumental in keeping our business safe from potential threats. Their team is knowledgeable, responsive, and always goes above and beyond to ensure our peace of mind."</strong></p>
+                        <p class="small">— John Doe, CEO, XYZ Corporation</p>
+                    </div>
+                    <img src="./assets/img/testimony1.jpg" alt="John Doe" class="rounded-circle img-fluid border border-2 border-secondary ms-n3 me-3" width="80" height="80"/>
+                </div>
+                <div class="testimonial d-flex justify-content-evenly align-items-start mb-3">
+                    <div class="ps-4">
+                        <p class="mb-0"><strong>"The implementation of Watchmen's security measures has significantly improved our organization's overall IT infrastructure. We appreciate their professionalism and dedication to maintaining our network's integrity."</strong></p>
+                        <p class="small">— Jane Smith, CTO, ABC Inc.</p>
+                    </div>
+                    <img src="./assets/img/testimony2.jpg" alt="Jane Smith" class="rounded-circle img-fluid border border-2 border-secondary ms-n3 me-3" width="80" height="80"/>
+                </div>
+                <div class="testimonial d-flex justify-content-evenly align-items-start mb-3">
+                    <div class="ps-4">
+                        <p class="mb-0"><strong>"Watchmen's customer service is second to none. They were able to quickly address any concerns we had and provided valuable insights into securing our online presence. I highly recommend their services!"</strong></p>
+                        <p class="small">— Mark Johnson, COO, DEF Industries</p>
+                    </div>
+                    <img src="./assets/img/testimony3.jpg" alt="Mark Johnson" class="rounded-circle img-fluid border border-2 border-secondary ms-n3 me-3" width="80" height="80"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="services">
+        <div class="d-flex flex-row flex-nowrap justify-content-evenly align-items-stretch my-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/antimalware.svg" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">Affordable Antimalware</h5>
+                    <p class="card-text text-dark">Our engineers have meticulously crafted some of the best state-of-the-art antimalwares for your computers. And the best part? They're affordable, we even provide one software completely free and open-source!</p>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Watchmen Fortitude
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body text-dark">Watchmen Forti is our top-of-the-line antimalware solution designed to provide robust protection against all types of malware threats. It uses a multi-layered approach that includes real-time behavior analysis, heuristic scanning, signature-based detection, and artificial intelligence to identify and neutralize even the most advanced threats. Watchmen Fortitude also offers automatic updates, cloud-based threat intelligence, and remote management capabilities for businesses and individuals who require the highest level of security.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              SecureShield Watchmen Pro
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body text-dark">SecureShield Watchmen  is our mid-range antimalware software, offering solid protection without the high price tag of Watchmen Fortitude. It provides real-time malware scanning using signatures and heuristics, as well as behavioral analysis to detect new and emerging threats. SecureShield Watchmem Pro also includes web protection, email filtering, and firewall functionality to help safeguard users from online threats. While not quite as feature-rich or powerful as Watchmen Fortitude, it still delivers reliable and effective protection for those looking for a more affordable option.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              SecureShield Watchmen Community Edition
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body text-dark">SecureShield Watchmen Community Edition is our free and open-source antimalware software developed by a team of dedicated volunteers. Designed with transparency in mind, this lightweight tool relies on community contributions to stay up-to-date with the latest virus definitions and threat intelligence. Its core engine focuses on signature-based detection and can be easily integrated into other applications or systems. Although its feature set may not match that of commercial solutions like Watchmen Fortitude or SecureShield Watchmem Pro, SecureShield Watchmen Community Edition remains an essential resource for those seeking basic yet functional antivirus protection at no cost.</div>
+                          </div>
+                        </div>
+                        <br>
+                        <p class="text-dark">Interested? Visit out <a href="#">download page</a> right now!</p>
+                      </div>
+                </div>
+            </div>
+                <div class="card" style="width: 18rem;">
+                <img src="./assets/img/consultation.svg" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">Security Consultation</h5>
+                    <p class="card-text text-dark">In today's digital world, no system is safe. But some systems would be more secure than other. Our security experts can help make it harder for hackers to find their way into your system. <a href="#contact">Contact us</a> right now to find out more!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/img/guard.svg" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h5 class="card-title">Dedicated Security</h5>
+                    <p class="card-text text-dark">Once a hacker slips into your company system, he can practically do anything he want. The best way is to prevent this from happening in the first place. Our dedicated and highly-trained security experts can help you with this. <a href="#contact">Contact us</a> for more details.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="contact">
+        <div class="my-4">
+            <ul class="list-group">
+                <li class="list-group-item text-light" style="background: linear-gradient(to right, #0f0c29, #302b63, #24243e);">
+                    Email (for business inquiries):
+                    <br>
+                    watchmeninc@id.com
+                </li>
+                <li class="list-group-item text-light" style="background: linear-gradient(to right, #0f0c29, #302b63, #24243e);">
+                    Social Media:
+                    <br>
+                    <a href="#">Twitter</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">LinkedIn</a>
+                </li>
+                <li class="list-group-item text-light" style="background: linear-gradient(to right, #0f0c29, #302b63, #24243e);">
+                    Customer Service:
+                    <br>
+                    +62 123-4567-8900
+                </li>
+              </ul>
+        </div>
+    </section>
+</body>
+</html>
